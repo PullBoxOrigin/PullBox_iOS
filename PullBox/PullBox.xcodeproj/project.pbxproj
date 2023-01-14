@@ -30,7 +30,7 @@
 		7A86B2452970AFB700414139 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86B2442970AFB700414139 /* MainViewModel.swift */; };
 		7A86B2472970B02400414139 /* SearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A86B2462970B02400414139 /* SearchDetailViewController.swift */; };
 		7A86B24A29720E2F00414139 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7A86B24929720E2F00414139 /* FirebaseAuth */; };
-		7A86B24C29721A9500414139 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A86B24B29721A9500414139 /* GoogleService-Info.plist */; };
+		7A86B24E2972F12A00414139 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A86B24D2972F12A00414139 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +71,7 @@
 		7A86B2412970ABF600414139 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		7A86B2442970AFB700414139 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		7A86B2462970B02400414139 /* SearchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailViewController.swift; sourceTree = "<group>"; };
-		7A86B24B29721A9500414139 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A86B24D2972F12A00414139 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 				7A86B21C296F749600414139 /* Resource */,
 				7A86B21D296F74AF00414139 /* Views */,
 				7A38B7132968207100956FAF /* Info.plist */,
-				7A86B24B29721A9500414139 /* GoogleService-Info.plist */,
+				7A86B24D2972F12A00414139 /* GoogleService-Info.plist */,
 			);
 			path = PullBox;
 			sourceTree = "<group>";
@@ -367,7 +367,7 @@
 			files = (
 				7A38B7122968207100956FAF /* LaunchScreen.storyboard in Resources */,
 				7A38B70F2968207100956FAF /* Assets.xcassets in Resources */,
-				7A86B24C29721A9500414139 /* GoogleService-Info.plist in Resources */,
+				7A86B24E2972F12A00414139 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
