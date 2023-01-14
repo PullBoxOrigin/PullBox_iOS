@@ -91,3 +91,4 @@ iOSInjectionProject/
 
 # 커스텀
 *.DS_Store
+*GoogleService-Info.plist
