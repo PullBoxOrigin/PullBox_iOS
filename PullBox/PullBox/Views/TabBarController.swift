@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class TabBarController: UITabBarController {
+final class TabBarController: UITabBarController {
     lazy var mainViewController: UIViewController = {
         let vc = UINavigationController(rootViewController: MainViewController())
         vc.tabBarItem = UITabBarItem(title: "홈", image: UIImage(systemName: "house"), tag: 0)
