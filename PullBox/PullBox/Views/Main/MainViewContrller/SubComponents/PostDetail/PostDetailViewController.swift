@@ -12,13 +12,22 @@ import SnapKit
 final class PostDetailViewController: UIViewController {
     private let tableView = UITableView(frame: .zero, style: .plain)
     private var viewModel: PostDetailViewModel?
-
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        self.hidesBottomBarWhenPushed = true
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setTableView()
         setNavigationBar()
-        hidesBottomBarWhenPushed = true
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
